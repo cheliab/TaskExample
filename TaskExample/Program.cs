@@ -10,7 +10,8 @@ namespace TaskExample
             // InnerTask.StartAttachedExample();
             // ArrayOfTask.StartExample();
             // ArrayOfTask.StartSecondExample();
-            TaskResultExample.Start();
+            // TaskResultExample.Start();
+            ContinuationTaskExample.Start();
         }
     }
 }
