@@ -13,7 +13,8 @@ namespace TaskExample
             // TaskResultExample.Start();
             // ContinuationTaskExample.Start();
             // PallelInvokeExample.Start();
-            PallelForExample.Start();
+            // PallelForExample.Start();
+            ParallelForEachExample.Start();
         }
     }
 }
