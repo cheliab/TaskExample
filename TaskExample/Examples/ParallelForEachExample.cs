@@ -10,7 +10,7 @@ namespace TaskExample
         public static void Start() 
         {
             List<int> list = new List<int>{ 1, 2, 3, 4, 5 };
-            Parallel.ForEach<int>(list, Factorial);
+            var result = Parallel.ForEach<int>(list, Factorial);
 
             Console.ReadLine();
         }
