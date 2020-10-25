@@ -11,7 +11,8 @@ namespace TaskExample
             // ArrayOfTask.StartExample();
             // ArrayOfTask.StartSecondExample();
             // TaskResultExample.Start();
-            ContinuationTaskExample.Start();
+            // ContinuationTaskExample.Start();
+            PallelInvokeExample.Start();
         }
     }
 }
